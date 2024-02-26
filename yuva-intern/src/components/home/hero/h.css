@@ -1,0 +1,24 @@
+.cards{
+    display: flex;
+    width: 80%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin: auto;
+    gap: 2rem;
+    padding: .5rem;
+    border: 2px solid #1eb2a6;
+    /* background-color: #1eb2a6; */
+
+}
+.ourcourses{
+    text-align: center;
+    padding: 2rem;
+    font-weight: 600;
+    color:#1eb2a6 ;
+}
+.data{
+    min-width: 400px;
+}
+.cards::-webkit-scrollbar {
+    display: none;
+  }
