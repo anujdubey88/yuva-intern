@@ -1,5 +1,5 @@
 .aboutHome {
-  /* margin-top: 30%; */
+  margin-top: 30%;
 }
 .aboutHome #heading {
   text-align: left;
@@ -31,7 +31,7 @@
   height: 70px;
 }
 .aboutHome .item h2 {
-  font-size: 20px;
+  font-size: 3rem;
   margin-bottom: 15px;
 }
 .aboutHome .item p {
