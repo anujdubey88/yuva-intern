@@ -31,7 +31,7 @@ const Header = () => {
               <Link to='/journal'>Verify</Link>
             </li>
           </ul>
-          <div className='start' style={{backgroundColor:"#697e9a"}}>
+          <div className='start' style={{backgroundColor:"#697e9a", fontWeight:"600"}}>
             <div className='button'>GET INTERNSHIP</div>
           </div>
           <button className='toggle' onClick={() => setClick(!click)}>
