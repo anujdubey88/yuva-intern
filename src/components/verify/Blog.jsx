@@ -9,7 +9,7 @@ const Blog = () => {
       <Back title='Verify Your Details' />
       <section className='blog padding'>
         <div className='container grid2'>
-          <BlogCard />
+          {/* <BlogCard /> */}
         </div>
       </section>
     </>

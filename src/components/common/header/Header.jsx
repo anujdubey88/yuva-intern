@@ -10,7 +10,7 @@ const Header = () => {
     <>
       <Head />
       <header>
-        <nav className='flexSB' style={{paddingLeft:"3rem"}}>
+        <nav className='flexSB' >
           <ul className={click ? "mobile-nav" : "flexSB "} onClick={() => setClick(false)}>
           <li  >
               <Link to='/'>Home</Link>
@@ -31,7 +31,7 @@ const Header = () => {
               <Link to='/journal'>Verify</Link>
             </li>
           </ul>
-          <div className='start' style={{backgroundColor:"#697e9a", fontWeight:"600"}}>
+          <div className='start' >
             <div className='button'>GET INTERNSHIP</div>
           </div>
           <button className='toggle' onClick={() => setClick(!click)}>

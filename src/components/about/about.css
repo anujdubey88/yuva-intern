@@ -1,15 +1,15 @@
 .aboutHome {
-  margin-top: 30%;
+  margin-top: 30vh;
+  padding-top: 24vh;
 }
 .aboutHome #heading {
   text-align: left;
   padding: 0;
 }
 .aboutHome .left img {
-  margin-top: 10vh;
-  width: 30vw;
-  height: 75vh;
-  object-fit: cover;
+  width: 40vw;
+  height: 80vh;
+  /* object-fit: cover; */
 }
 .aboutHome .right {
   padding: 80px 50px;
@@ -60,6 +60,7 @@
 }
 .awrapper img {
   margin-right: 30px;
+
 }
 .awrapper h1 {
   font-size: 50px;
@@ -76,6 +77,9 @@
   
   .aboutHome .row {
     width: 100%;
+  }
+  .aboutHome .left img{
+    margin-left: 20vw;
   }
   .awrapper {
     height: 50vh;

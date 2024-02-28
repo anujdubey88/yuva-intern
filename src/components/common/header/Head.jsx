@@ -7,7 +7,7 @@ const Head = () => {
         <div className='container flexSB'>
         <img
             style={{ height: "5rem", borderRadius: "50%" }}
-            src="./images/logo/yuva-intern.png"
+            src="./images/logo/bg5.png"
             alt="error"
           />
           <div className="logo">
@@ -19,7 +19,7 @@ const Head = () => {
             <i className='fab fa-facebook-f icon'></i>
             <i className='fab fa-instagram icon'></i>
             <i className='fab fa-twitter icon'></i>
-            <i className='fab fa-youtube icon'></i>
+            <i className='fab fa-linkedin icon'></i>
           </div>
         </div>
       </section>

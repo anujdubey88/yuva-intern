@@ -16,6 +16,7 @@ body {
 .flexSB {
   display: flex;
   justify-content: space-between;
+  
 }
 .icon {
   width: 40px;
@@ -45,9 +46,10 @@ button {
   padding: 17px 30px;
   background-color: #fff;
   color: #5090cc;
-  font-weight: 600;
+  font-weight: 5600;
+  font-size: 0.8rem;
   border: none;
-  margin: 30px 10px 0 0;
+  margin: 10px 10px 0 0;
   border-radius: 3px;
   cursor: pointer;
   box-shadow: 0 24px 36px -11px rgb(0 0 0 / 9%);
