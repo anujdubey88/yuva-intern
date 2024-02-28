@@ -31,10 +31,10 @@ header ul li a {
   transition: 0.5s;
 }
 header ul li a:hover {
-  color: #5090cc;
+  color: black;
 }
 .start {
-  background-color: #697e9a;
+  background-color: black;
   font-weight: 600;
   padding: 30px 70px;
   color: #fff;

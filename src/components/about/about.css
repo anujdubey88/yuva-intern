@@ -1,6 +1,5 @@
 .aboutHome {
   margin-top: 30vh;
-  padding-top: 24vh;
 }
 .aboutHome #heading {
   text-align: left;
@@ -8,14 +7,16 @@
 }
 .aboutHome .left img {
   width: 40vw;
-  height: 80vh;
+  height: 100vh;
+  padding-top: 20vh;
+
   /* object-fit: cover; */
 }
 .aboutHome .right {
-  padding: 80px 50px;
+  padding: 5vh 5vw;
 }
 .aboutHome .items {
-  margin-top: 50px;
+  margin-top: 5vh;
 }
 .aboutHome .item {
   background-color: #fff;
@@ -24,18 +25,18 @@
   transition: 0.5s;
 }
 .aboutHome .img {
-  width: 200px;
+  width: 18vw;
 }
 .aboutHome img {
-  width: 70px;
-  height: 70px;
+  width: 5vw;
+  height: 10vh;
 }
 .aboutHome .item h2 {
-  font-size: 3rem;
-  margin-bottom: 15px;
+  font-size: 2rem;
 }
 .aboutHome .item p {
   color: #999999;
+  font-size: 0.9rem;
 }
 .aboutHome .item:hover {
   background-color: #5090cc;
@@ -56,17 +57,17 @@
   color: #fff;
 }
 .awrapper .box {
-  padding: 70px 0;
+  padding: 8vh 0;
 }
 .awrapper img {
-  margin-right: 30px;
+  margin-right: 10vw;
 
 }
 .awrapper h1 {
   font-size: 50px;
 }
 .awrapper h3 {
-  font-size: 20px;
+  font-size: 1rem;
   font-weight: 500;
 }
 /*----------awrapper------------*/
@@ -85,3 +86,4 @@
     height: 50vh;
   }
 }
+

@@ -14,8 +14,8 @@ const Hero = () => {
             <p >If you are after a New and Exciting learning Experience that can
                 Help you reach your Goals and Unleash your full otential then
                 come and be our Intern</p>
-            <div className='button'>
-              <button style={{backgroundColor:"#697e9a", color:"white"}}>
+            <div className='button '>
+              <button className="primary-btn" >
                 GET STARTED NOW <i className='fa fa-long-arrow-alt-right'></i>
               </button>
               <button>

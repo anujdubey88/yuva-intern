@@ -30,7 +30,7 @@ body {
 }
 .icon:hover {
   cursor: pointer;
-  background-color: #5090cc;
+  background-color: black;
   color: #fff;
 }
 a {
@@ -45,7 +45,7 @@ li {
 button {
   padding: 17px 30px;
   background-color: #fff;
-  color: #5090cc;
+  color: black;
   font-weight: 5600;
   font-size: 0.8rem;
   border: none;
@@ -62,7 +62,7 @@ button:hover {
   box-shadow: none;
 }
 .primary-btn {
-  background-color: #5090cc;
+  background-color: black;
   color: #fff;
 }
 
