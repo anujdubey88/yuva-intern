@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -16,36 +16,7 @@ import './slider.css';
 import { Pagination, Navigation } from 'swiper/modules';
 
 export default function Slider() {
-  const [swiperRef, setSwiperRef] = useState(null);
-
-  let appendNumber = 4;
-  let prependNumber = 1;
-
-  const prepend2 = () => {
-    swiperRef.prependSlide([
-      '<div class="swiper-slide">Slide ' + --prependNumber + '</div>',
-      '<div class="swiper-slide">Slide ' + --prependNumber + '</div>',
-    ]);
-  };
-
-  const prepend = () => {
-    swiperRef.prependSlide(
-      '<div class="swiper-slide">Slide ' + --prependNumber + '</div>'
-    );
-  };
-
-  const append = () => {
-    swiperRef.appendSlide(
-      '<div class="swiper-slide">Slide ' + ++appendNumber + '</div>'
-    );
-  };
-
-  const append2 = () => {
-    swiperRef.appendSlide([
-      '<div class="swiper-slide">Slide ' + ++appendNumber + '</div>',
-      '<div class="swiper-slide">Slide ' + ++appendNumber + '</div>',
-    ]);
-  };
+  const [ setSwiperRef] = useState(null);
   
   return (
     <>
@@ -164,20 +135,11 @@ export default function Slider() {
               </SwiperSlide>
 
               <SwiperSlide>
-                <div class="card swiper-slide">
-                  <img class="card__img" src={img4} alt="img" />
-                  <div class="card__desc">
-                    <div class="card__title">Android Development</div>
-                    <div class="detail">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Vero, voluptate. Beatae repudiandae nemo qui est rem
-                      pariatur nulla voluptatem voluptas?
-                    </div>
-                    <div class="buttons">
-                      <button class="btn">Read More</button>
-                    </div>
-                  </div>
-                </div>
+              <div className="slide-content">
+            <img src={img1} alt={img2} />
+            <h3>ANUJ DUBEY</h3>
+            <p>Hii anuj Dubey how are you, i likely to invite you in my inogration of my own company and you should come with your family thankyou</p>
+          </div>
               </SwiperSlide>
             </div>
           </div>

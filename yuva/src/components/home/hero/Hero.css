@@ -6,6 +6,7 @@
   top: 0;
   left: 0;
   z-index: -1;
+  background-position: center;
   width: 100%;
   height: 100%;
   padding-top: 40vh;
@@ -13,12 +14,15 @@
   color: #fff;
 }
 .hero h1{
-  font-size:40px;
+  position: relative;
+  font-size:2rem;
+  font-weight: 700;
 }
 .hero  h3 {
+  position: relative;
   color: #fff;
-  font-size:25px;
-  padding-bottom:30px;
+  font-size:1.5rem;
+  padding-bottom:2vh;
 }
 .hero #heading {
   text-align: left;
@@ -47,5 +51,25 @@
     font-size: 20px;
     font-weight: 700;
     padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 1200px){
+  .hero h1{
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .hero .row {
+    width: 80%;
+  }
+  .hero h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 1vh;
+  }
+}
+@media screen and (max-width: 900px){
+  
+  .hero .row {
+    width: 90%;
   }
 }

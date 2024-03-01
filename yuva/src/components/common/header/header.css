@@ -1,6 +1,6 @@
 /*--------head------------*/
 .head {
-  padding: 10px 0;
+  padding: 1vh 0;
   color: #fff;
 }
 .logo h1 {
@@ -49,7 +49,7 @@ header ul li a:hover {
     clip-path: none;
   }
   header {
-    background-color:#5090cc ;
+    background-color:#5090cc,transparent ;
     position: relative;
   }
   header ul.flexSB {
@@ -76,5 +76,12 @@ header ul li a:hover {
   }
   .start{
     clip-path: polygon(0% 0%, 88% 0, 100% 100%, 0% 100%);
+  }
+  
+}
+@media screen and (max-width: 300px){
+  .logo h1 {
+    font-size:1rem;
+    /* font-weight: 900; */
   }
 }

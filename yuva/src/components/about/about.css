@@ -61,7 +61,6 @@
 }
 .awrapper img {
   margin-right: 1vw;
-
 }
 .awrapper h1 {
   font-size: 50px;
@@ -75,15 +74,52 @@
   .aboutHome .container {
     flex-direction: column-reverse;
   }
-  
   .aboutHome .row {
     width: 100%;
   }
   .aboutHome .left img{
     margin-left: 20vw;
   }
+  
   .awrapper {
     height: 50vh;
   }
+  .awrapper img {
+    height: 4rem;
+    margin-right: 1vw;
+  }
+  .aboutHome .right {
+    padding-top:0vh;
+  }
 }
+@media screen and (max-width: 1200px){
+  .aboutHome .img {
+    width: 25vw;
+  }
+  .aboutHome .items {
+    margin-top: 1vh;
+  }
+  .aboutHome .right {
+    padding-top: 15vh;
+  }
+}
+@media screen and (max-width: 1000px){
+  .aboutHome .img {
+    width: 25vw;
+  }
+  .aboutHome .items {
+    margin-top: 1vh;
+  }
+  .awrapper h1{
+    font-size: 25px;
+  }
+  .awrapper img {
+    height: 4rem;
+    margin-right: 1vw;
+  }
+  .aboutHome .right {
+    padding-top: 30vh;
+  }
+}
+
 
