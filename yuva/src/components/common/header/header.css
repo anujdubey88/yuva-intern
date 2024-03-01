@@ -23,15 +23,15 @@ header li {
   margin-right: 40px;
 }
 header ul {
-  align-items: center;
+  padding-top: 1.8rem;
 }
 header ul li a {
-  color: #fff;
+  color: black;
   font-weight: 500;
   transition: 0.5s;
 }
 header ul li a:hover {
-  color: black;
+  color: #fff;
 }
 .start {
   background-color: black;

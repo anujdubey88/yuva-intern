@@ -412,3 +412,11 @@ export const testimonal = [
     cover: "./images/testo/t3.webp",
   },
 ]
+
+export const userDetailes=[
+  {firstName: "Anuj",
+  lastName :"Dubey",
+  gender : "male",
+  collegeName : "Sant Longowal Institute Of Engineering and Technology",
+  yearOfBatch : "2025"}
+]

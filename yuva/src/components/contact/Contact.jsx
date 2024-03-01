@@ -17,18 +17,18 @@ const Contact = () => {
             <p>We're open for any suggestion or just to have a chat</p>
 
             <div className='items grid2'>
-              <div className='box'>
+              {/* <div className='box'>
                 <h4>ADDRESS:</h4>
                 <p>198 West 21th Street, Suite 721 New York NY 10016</p>
-              </div>
+              </div> */}
               <div className='box'>
                 <h4>EMAIL:</h4>
                 <p> info@yoursite.com</p>
               </div>
-              <div className='box'>
+              {/* <div className='box'>
                 <h4>PHONE:</h4>
                 <p> + 1235 2355 98</p>
-              </div>
+              </div> */}
             </div>
 
             <form action=''>
@@ -43,8 +43,8 @@ const Contact = () => {
               <button className='primary-btn'>SEND MESSAGE</button>
             </form>
 
-            <h3>Follow us here</h3>
-            <span>FACEBOOK TWITTER INSTAGRAM DRIBBBLE</span>
+            {/* <h3>Follow us here</h3> */}
+            {/* <span>FACEBOOK TWITTER INSTAGRAM DRIBBBLE</span> */}
           </div>
         </div>
       </section>

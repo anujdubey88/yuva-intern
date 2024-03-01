@@ -14,7 +14,7 @@
   body {
     background: #eee;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 1rem;
     color: #000;
     margin: 0;
     padding: 0;
@@ -27,7 +27,7 @@
   
   .swiper-slide {
     text-align: center;
-    font-size: 18px;
+    font-size: 1rem;
     background: #fff;
   
     /* Center slide text vertically */
@@ -46,14 +46,21 @@
     object-fit: cover;
   }
   
+  .card{
+    width: 100vw;
+  }
+  .slide-content{
+    width: 30vw;
+  }
+  
   .swiper {
-    width: 80vw;
-    height: 50vh;
-    margin: 20vh auto;
+    width: 100vw;
+    height: 70vh;
+    margin: 15vh auto;
   }
   .append-buttons {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 3rem;
   }
   
   .append-buttons button {
@@ -62,9 +69,13 @@
     border: 1px solid #5090cc;
     color: #5090cc;
     text-decoration: none;
-    padding: 4px 10px;
-    border-radius: 4px;
+    padding: 2rem 5rem;
+    border-radius: 1rem;
     margin: 0 10px;
-    font-size: 13px;
+    font-size: 2rem;
   }
-  
+  @media screen and (max-width: 768px){
+    .slide-content{
+      width: 70vw;
+    }
+  }
